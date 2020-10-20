@@ -1,6 +1,6 @@
 :root {
   --themeDark: #FF6543;
-  --background: #F1F1F1;
+  --background: #fcfcfc;
   --textdark: #3A3A3A;
 }
 
@@ -12,4 +12,13 @@ body {
 
 .text-title {
   font-family: 'Playfair Display SC', serif !important;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0 0 25px rgba(0,0,0,0.08);
+}
+
+.fa {
+  margin: 15px;
 }
