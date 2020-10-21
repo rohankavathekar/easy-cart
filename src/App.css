@@ -22,3 +22,16 @@ body {
 .fa {
   margin: 15px;
 }
+
+.owl {
+  margin: 180px auto;
+}
+.owl-theme div p{
+  text-align: center;
+  margin: 20px;
+}
+
+.owl-theme div img {
+  width: 100px !important;  
+  margin: auto;
+}

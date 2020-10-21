@@ -8,7 +8,7 @@ const Navigation = () => {
       <Navbar className="navbar" collapseOnSelect expand="lg">
         <Navbar.Brand href="#home">
           <img
-            src="/logo.png"
+            src="img/logo.png"
             width="80"
             height="80"
             className="d-inline-block align-top"
