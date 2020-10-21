@@ -11,7 +11,9 @@ const Catagories = () => {
           className="owl-theme"  
           loop  
           nav  
-          margin={8} >  
+          margin={8}
+          autoplay={true}
+         >  
           <div >
             <img  className="img" src= {'img/1.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>

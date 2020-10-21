@@ -24,14 +24,32 @@ body {
 }
 
 .owl {
-  margin: 180px auto;
+  margin: 120px auto;
 }
+
 .owl-theme div p{
   text-align: center;
   margin: 20px;
 }
 
+.owl-item:hover {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
 .owl-theme div img {
   width: 100px !important;  
-  margin: auto;
+  margin: 20px auto;
+}
+
+.footer {
+  height: 50px;
+  background: #2c273a;
+  position: fixed;
+  bottom: 0;
+}
+.footer p {
+  color: #f0f0f0;
+  text-align: center;
+  margin: 15px;
 }

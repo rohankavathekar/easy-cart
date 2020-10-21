@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div>
       <Navbar className="navbar" collapseOnSelect expand="lg">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src="img/logo.png"
             width="80"
@@ -18,7 +18,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#pricing">
+            <Nav.Link href="/cart">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
              My Cart</Nav.Link>
           </Nav>

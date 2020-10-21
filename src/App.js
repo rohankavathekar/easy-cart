@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import Catagories from './components/Catagories';
 import Products from './components/Products';
 import Details from './components/Details';
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
       </Switch>
+      <Footer/>
     </div>
   );
 };
