@@ -7,7 +7,7 @@ const Catagories = () => {
   return (  
     <div>  
       <div className='container owl' >            
-        <OwlCarousel items={5}  
+        <OwlCarousel items={6}  
           className="owl-theme"  
           loop  
           nav  
@@ -15,27 +15,27 @@ const Catagories = () => {
           autoplay={true}
          >  
           <div >
-            <img  className="img" src= {'img/1.png'}/>
+            <img  className="img" alt="catagory" src= {'img/1.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <div>
-            <img  className="img" src= {'img/2.png'}/>
+            <img  className="img" alt="catagory" src= {'img/2.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <div>
-            <img  className="img" src= {'img/3.png'}/>
+            <img  className="img" alt="catagory" src= {'img/3.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <div>
-            <img  className="img" src= {'img/4.png'}/>
+            <img  className="img" alt="catagory" src= {'img/4.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <div>
-            <img className="img" src= {'img/5.png'}/>
+            <img className="img" alt="catagory" src= {'img/5.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <div>
-            <img className="img" src= {'img/6.png'}/>
+            <img className="img" alt="catagory" src= {'img/6.png'}/>
             <p>Name <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div> 
         </OwlCarousel>  

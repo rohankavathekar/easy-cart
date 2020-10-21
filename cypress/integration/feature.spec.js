@@ -4,6 +4,6 @@ describe('homepage', () => {
   
       cy.get('[data-testid="title"]')
         .contains('EasyCart');
-  
+
     });
   });

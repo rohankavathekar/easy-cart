@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div> 
         <div className="container-fluid footer"> 
-            <p>© 2020 Copyright Sulekha.com. All Rights Reserved.</p>
+            <p>© 2020 Copyright EasyCart All Rights Reserved.</p>
         </div>
     </div>
   );

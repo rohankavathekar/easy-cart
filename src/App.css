@@ -1,3 +1,63 @@
+/***************************
+    Page section padding 
+****************************/
+.ptb-0 { padding: 0 }
+.ptb-10 { padding: 10px 0 }
+.ptb-15 { padding: 15px 0 }
+.ptb-20 { padding: 20px 0 }
+.ptb-30 { padding: 30px 0 }
+.ptb-35 { padding: 35px 0 }
+.ptb-32 { padding: 32px 0 }
+.ptb-40 { padding: 40px 0 }
+.ptb-50 { padding: 50px 0 }
+.ptb-60 { padding: 60px 0 }
+.ptb-70 { padding: 70px 0 }
+.ptb-80 { padding: 80px 0 }
+.ptb-90 { padding: 90px 0 }
+.ptb-95 { padding: 95px 0 }
+.ptb-100 { padding: 100px 0 }
+.ptb-105 { padding: 105px 0 }
+.ptb-115 { padding: 115px 0 }
+.ptb-110 { padding: 110px 0 }
+.ptb-120 { padding: 120px 0 }
+.ptb-130 { padding: 130px 0 }
+.ptb-135 { padding: 135px 0 }
+.ptb-140 { padding: 140px 0 }
+.ptb-150 { padding: 150px 0 }
+.ptb-145 { padding: 145px 0 }
+.ptb-160 { padding: 160px 0 }
+.ptb-170 { padding: 170px 0 }
+.ptb-177 { padding: 177px 0 }
+.ptb-180 { padding: 180px 0 }
+.ptb-190 { padding: 190px 0 }
+.ptb-200 { padding: 200px 0 }
+.ptb-210 { padding: 210px 0 }
+.ptb-220 { padding: 220px 0 }
+.ptb-290 { padding: 290px 0 }
+.ptb-310 { padding: 310px 0 }
+
+/***************************
+    Page section margin 
+****************************/
+.mtb-0 { margin: 0 }
+.mtb-10 { margin: 10px 0 }
+.mtb-15 { margin: 15px 0 }
+.mtb-20 { margin: 20px 0 }
+.mtb-30 { margin: 30px 0 }
+.mtb-40 { margin: 40px 0 }
+.mtb-50 { margin: 50px 0 }
+.mtb-60 { margin: 60px 0 }
+.mtb-70 { margin: 70px 0 }
+.mtb-80 { margin: 80px 0 }
+.mtb-90 { margin: 90px 0 }
+.mtb-100 { margin: 100px 0 }
+.mtb-110 { margin: 110px 0 }
+.mtb-120 { margin: 120px 0 }
+.mtb-130 { margin: 130px 0 }
+.mtb-140 { margin: 140px 0 }
+.mtb-150 { margin: 150px 0; }
+.mtb-290 { margin: 290px 0; }
+
 :root {
   --themeDark: #FF6543;
   --background: #fcfcfc;
