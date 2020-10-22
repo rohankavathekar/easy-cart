@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Catagories from './components/Catagories';
 import Products from './components/Products';
 import Details from './components/Details';
-import Cart from './components/Cart';
+import Cart from './components/Cart/Cart';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css'; 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {Navbar,Nav} from 'react-bootstrap';
 
 const Navigation = () => {
@@ -21,7 +21,7 @@ const Navigation = () => {
             <Nav.Link href="/cart">
             <i className="fa fa-shopping-cart" aria-hidden="true"></i>
              My Cart</Nav.Link>
-          </Nav>
+          </Nav> 
         </Navbar.Collapse>
       </Navbar>
     </div>
