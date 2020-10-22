@@ -19,7 +19,7 @@ const Navigation = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/cart">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
              My Cart</Nav.Link>
           </Nav>
         </Navbar.Collapse>
