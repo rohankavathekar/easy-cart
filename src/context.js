@@ -36,7 +36,7 @@ export default class ProductProvider extends Component {
             return {detailProduct:product}
         })
     }
-    addToCart = id => {
+    addToCart = (id) => {
         let tempProducts = [...this.state.products]
         const index = tempProducts.indexOf(this.getItem(id))
         const product = tempProducts[index];
@@ -44,10 +44,15 @@ export default class ProductProvider extends Component {
         product.count = 1;
         const price = product.price;
         product.total = price;
-        this.setState(()=>{
+        this.setState(
+            ()=>{
             return {products:tempProducts,cart:[...this.state.cart]}
-        })
-    }
+            },
+            ()=>{
+                console.log(this.state)
+                }
+        );
+    };
     increment = (id) => {
         console.log("increment method")
     }
