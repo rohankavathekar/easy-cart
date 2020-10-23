@@ -24,7 +24,7 @@ const Catagories = () => {
             <p>Health and Grocary <i class="fa fa-angle-down" aria-hidden="true"></i></p>
           </div>  
           <Link to="/products">
-            <div>
+            <div data-testid="mobile">
               <img className="img" alt="catagory" src= {'img/5.png'}/>
               <p>Mobile Phones <i class="fa fa-angle-down" aria-hidden="true"></i></p>
             </div> 
