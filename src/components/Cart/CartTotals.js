@@ -7,15 +7,15 @@ export default function CartTotals({value}) {
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col-10  col-sm-8 text-capitalize text-right">
+                    <div className="col-2 offset-10 text-capitalize text-right">
                         <Link to ="/">
                             <button className="btn btn-danger" type="button"
                             onClick={()=>clearCart()}>Clear Cart</button>
                         </Link>
-                            <div className="mtb-100">
-                                <h5>subTotal: $<strong>{cartSubtotal}</strong></h5>
-                                <h5>Cart Tax: $<strong>{cartTax}</strong></h5>
-                                <h5>Total: $<strong>{cartTotal}</strong></h5>
+                            <div className="totals">
+                                <p>subTotal: $<strong>{cartSubtotal}</strong></p>
+                                <p>Cart Tax: $<strong>{cartTax}</strong></p>
+                                <p>Total: $<strong>{cartTotal}</strong></p>
                             </div>
                     </div>
                 </div>

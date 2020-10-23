@@ -5,7 +5,7 @@ export default class CartItem extends Component {
     const { increment, decrement, removeItem } = this.props.value;
 
     return (
-      <div className="row my-1 text-capitalize text-center">
+      <div className="row my-1 text-capitalize text-center cart-item">
         <div className="col-10 mx-auto col-lg-2">
           <img
             src={img}
@@ -22,7 +22,7 @@ export default class CartItem extends Component {
             <span className="d-lg-none">price :</span> ${price}
           </strong>
         </div>
-        <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0 ">
+        <div className="col-10 mx-auto col-lg-2">
           <div className="d-flex justify-content-center">
             <div>
               <span
@@ -52,7 +52,7 @@ export default class CartItem extends Component {
         </div>
 
         <div className="col-10 mx-auto col-lg-2 ">
-          <strong>item total : ${total} </strong>
+          <strong> ${total} </strong>
         </div>
       </div>
     );

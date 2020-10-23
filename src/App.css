@@ -86,6 +86,9 @@ body {
   background: var(--background) !important;
   color: var(--textdark) !important;
 }
+a:hover {
+  text-decoration: none;
+}
 
 .navbar a, .card a{
   color: var(--textdark);
@@ -93,24 +96,45 @@ body {
 }
 .navbar a:hover{
   color: var(--textdark);
-  text-decoration: none;
+  
   background: #f0f0f0;
   border-radius: 10px;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  border: none;
+}
+.card:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.20);
 }
 .card a:hover{
   text-decoration: none;
 }
 .btn-default {
+  background: #f0f0f0;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.btn-default:hover {
   border: 1px solid lightgray;
+}
+.img-container .btn-default {
   width: 80%;
   margin: 20px auto;
+}
+.cart-item div {
+  margin: auto;
 }
 
 .fa-shopping-cart {
   margin: 0 !important;
 }
-
-
+.totals {
+  margin: 20px 0 80px 0;
+}
+.totals p:nth-child(2) {
+  border-bottom: 1px solid gray ;
+}
 .text-title {
   font-family: 'Playfair Display SC', serif !important;
 }
