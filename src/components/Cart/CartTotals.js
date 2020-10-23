@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 
-export default function CartTotals({value}) {
+const CartTotals = ({value}) => {
     const {cartSubtotal,cartTax,cartTotal,clearCart} = value;
     return (
         <div>
@@ -23,3 +23,5 @@ export default function CartTotals({value}) {
         </div>
     )
 }
+
+export default CartTotals
