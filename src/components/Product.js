@@ -8,7 +8,7 @@ export default class Product extends Component {
         const {id, title, img, price, inCart} = this.props.product;
         return (
             <div>
-                <div className="col-9 mx-auto ptb-30">
+                <div className="col-6 mx-auto ptb-30">
                     <div className="card">
                         <ProductConsumer>
                             {(value)=>(
@@ -16,6 +16,9 @@ export default class Product extends Component {
                             onClick={()=>value.handleDetail(id)}>
                                 <Link to="/details">
                                 <img src={img} alt="product" className="card-img-top"></img>
+                                </Link>
+                                <Link to="/cart">
+                                <button>go to cart</button>
                                 </Link>
                                 <button className='btn-cart' disabled={inCart?true:false}
                                 onClick={()=>{value.addToCart(id)}}>
