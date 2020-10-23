@@ -5,7 +5,7 @@ const Title = (props) => {
     <div>
       <div className="row">
         <div className="col-10 mx-auto mtb-20 text-center text-title">
-          <h1 className="font-weight-bold">{props.name}</h1>
+          <h2 className="font-weight-bold">{props.name}</h2>
         </div>
       </div>
     </div>

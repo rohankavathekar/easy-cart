@@ -58,8 +58,25 @@
 .mtb-150 { margin: 150px 0; }
 .mtb-290 { margin: 290px 0; }
 
+.mx-10 { margin: 0  10px  }
+.mx-15 { margin: 0  15px  }
+.mx-20 { margin: 0  20px  }
+.mx-30 { margin: 0  30px  }
+.mx-40 { margin: 0  40px  }
+.mx-50 { margin: 0  50px  }
+.mx-60 { margin: 0  60px  }
+.mx-70 { margin: 0  70px  }
+.mx-80 { margin: 0  80px  }
+.mx-90 { margin: 0  90px  }
+.mx-100 { margin:  0 100px  }
+.mx-110 { margin:  0 110px  }
+.mx-120 { margin:  0 120px  }
+.mx-130 { margin:  0 130px  }
+.mx-140 { margin:  0 140px  }
+.mx-150 { margin:0 150px  }
+.mx-290 { margin:0 290px }
+
 :root {
-  --themeDark: #FF6543;
   --background: #fcfcfc;
   --textdark: #3A3A3A;
 }
@@ -69,6 +86,30 @@ body {
   background: var(--background) !important;
   color: var(--textdark) !important;
 }
+
+.navbar a, .card a{
+  color: var(--textdark);
+
+}
+.navbar a:hover{
+  color: var(--textdark);
+  text-decoration: none;
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+.card a:hover{
+  text-decoration: none;
+}
+.btn-default {
+  border: 1px solid lightgray;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.fa-shopping-cart {
+  margin: 0 !important;
+}
+
 
 .text-title {
   font-family: 'Playfair Display SC', serif !important;
