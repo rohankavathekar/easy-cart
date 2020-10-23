@@ -7,8 +7,8 @@ export default class ProductProvider extends Component {
     state={
         products:[],
         detailProduct:detailProduct,
-        cart:[],
-        cartSubTotal:0,
+        cart:storeProducts,
+        cartSubtotal:0,
         cartTax:0,
         cartTotal:0
     }
@@ -37,8 +37,8 @@ export default class ProductProvider extends Component {
         })
     }
     addToCart = (id) => {
-        let tempProducts = [...this.state.products]
-        const index = tempProducts.indexOf(this.getItem(id))
+        let tempProducts = [...this.state.products];
+        const index = tempProducts.indexOf(this.getItem(id));
         const product = tempProducts[index];
         product.inCart = true;
         product.count = 1;
@@ -59,11 +59,25 @@ export default class ProductProvider extends Component {
     decrement = (id) => {
         console.log("decrement method")
     }
-    removeItem = (id) => {
+    removeItem = (id) => { 
         console.log("remove itm method")
     }
     clearCart = () => {
         console.log("clear Cart")
+    }
+    addTotals = () => {
+        let subTotal = 0;
+        this.state.cart.map(item =>(subTotal += item.total));
+        const tempTax = subTotal * 0.1;
+        const tax = parseFloat(tempTax.toFixed(2));
+        const total = subTotal + tax;
+        this.setState(()=>{
+            return{
+                cartSubtotal:subTotal,
+                cartTax:tax,
+                cartTotal:total
+            }
+        })
     }
     
     render() {
